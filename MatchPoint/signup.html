@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+<div class="popup active" id="signup">
+    <div class="form">
+        <h2>Sign Up</h2>
+        <div class="form-element">
+            <label for="profileImage">Profile Image</label>
+            <input type="file" id="profileImage" accept="image/*">
+        </div>
+        <div class="form-element">
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Enter Name">
+        </div>
+
+        <div class="form-element">
+            <label for="address">Address</label>
+            <input type="text" id="address" placeholder="Enter Address">
+        </div>
+
+        <div class="form-element">
+            <label for="password">Password</label>
+            <input type="password" id="password" placeholder="Enter Password">
+        </div>
+
+        <div class="form-element">
+            <label for="userType">User Type:</label>
+            <select id="userType" name="user_type">
+                <option value="Applicant">Applicant</option>
+                <option value="Recruiter">Recruiter</option>
+            </select>
+        </div>
+
+        <div class="form-element">
+            <label for="Field">Field</label>
+            <input type="text" id="fields" placeholder="Enter your Field of Expertise">
+        </div>
+        <div class="form-element">
+            <button>Register</button>
+        </div>
+    </div>
+</div>
+</body>
+</html>
