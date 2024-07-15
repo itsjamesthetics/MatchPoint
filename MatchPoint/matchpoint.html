@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        MatchPoint
+    </title>
+    <link rel="stylesheet" type="text/css" href="matchpoint-home.css">
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+</head>
+
+<body>
+    <!-- NAVIGATION -->
+    <div class="hero">
+        <nav>
+            <img src="whitelogo.svg" class="logo">
+            <span class="logotext"> <text style="color:rgb(34, 103, 212)">Match</text><text
+                    style="color:white">Point.com</text></span>
+            <ul>
+                <li><a href="matchpoint.html#"> Home </a></li>
+                <li><a href="matchpointsearch.html"> Matching </a></li>
+                <li><a href="team.html"> Explore </a></li>
+                <li><a href="#"><img src="assets/fuser.png" class="user-pic" onclick="toggleMenu()"></a></li>
+            </ul>
+        </nav>
+    </div>
+    <!--SUB MENU-->
+    <div class="sub-menu-wrap" id="subMenu">
+        <div class="sub-menu">
+            <div class="user-info">
+                <img src="assets/fuser.png">
+                <h2 style="color:white"> James Ald </h2>
+            </div>
+            <hr>
+
+            <a href="#" class="sub-menu-link">
+                <img src="assets/profile.png">
+                <p> Edit Profile </p>
+                <span> > </span>
+            </a>
+
+            <a href="#" class="sub-menu-link">
+                <img src="assets/settings.png">
+                <p> Settings </p>
+                <span> > </span>
+            </a>
+
+            <a href="#" class="sub-menu-link">
+                <img src="assets/logout.png">
+                <p> Logout </p>
+                <span> > </span>
+            </a>
+        </div>
+    </div>
+
+    <div class="home">
+        <div class="home-content">
+            <h1>Find the right product for your job needs</h1>
+            <h3> Whether you're in <span class="text"></span> </h3>
+            <br>
+            <p> Introducing <b>MatchPoint</b>, In today's fast-paced world, the recruitment landscape is evolving. Meet
+                MatchPoint: the cutting-edge web application revolutionizing how recruiters connect with top-tier
+                talent. This isn't just another tool, it's your gateway to transforming the hiring process into an
+                unparalleled experience.</b></p>
+        </div>
+    </div>
+
+    <!-- PRODUCT LIST -->
+    <center>
+        <div class="product">
+            <div class="product-content">
+                <h1>Mini Products</h1>
+                <div id="product-list">
+                    <img src="assets/popcorn.png" alt="First Product Image" />
+                    <img src="assets/corndog.png" alt="Second Product Image" />
+                    <img src="assets/fries.png" alt="Third Product Image" />
+                </div>
+                <div id="cart"></div>
+                <div class="button-container">
+                    <button class="shop-button" id="cancelButton">Cancel</button>
+                    <button class="shop-button" id="checkoutButton">Checkout</button>
+                    <div id="checkoutForm" style="display: none;"></div>
+                </div>
+            </div>
+        </div>
+    </center>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+
+                <div class="footer-col">
+                    <h4> Organization </h4>
+                    <ul>
+                        <li><a href="#"> About Us </a></li>
+                        <li><a href="#"> Our Services </a></li>
+                        <li><a href="#"> Privacy Policy </a></li>
+                        <li><a hfre="#"> Affiliate Program </a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4> Get Help </h4>
+                    <ul>
+                        <li><a href="#"> FAQ </a></li>
+                        <li><a href="#"> About the Website </a></li>
+                        <li><a href="#"> Scheduling </a></li>
+                        <li><a href="#"> Hiring </a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4> Services </h4>
+                    <ul>
+                        <li><a href="#"> Candidate Hiring </a></li>
+                        <li><a href="#"> Search for a Job </a></li>
+                        <li><a href="#"> Interview Scheduling </a></li>
+                        <li><a href="#"> Qualifications Review </a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4> Follow Us! </h4>
+                    <div class="social-links">
+                        <a href="#"><img src="assets/facebook.png" alt="Facebook"
+                                style="width: 38px; height: 38px;"></a>
+                        <a href="#"><img src="assets/twitter.png" alt="Twitter" style="width: 38px; height: 38px;"></a>
+                        <a href="#"><img src="assets/instagram.png" alt="Instagram"
+                                style="width: 38x; height: 38px;"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="matchpoint.js"></script>
+</body>
+
+</html>
